@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+android:id="@+id/translate_layout"
+              android:orientation="vertical"
+              android:baselineAligned="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:baselineAligned="false">
+        <com.cnweak.rebash.html.PieProgress
+            xmlns:PieProgress="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/pie_progress"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            PieProgress:foregroundColor="#2C3437"
+            PieProgress:backgroundColor="#161A1B" />
+        </LinearLayout>
+    <TextView
+        android:layout_height="0dp"
+        android:id="@+id/API_item_translate"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:longClickable="false"
+        android:linksClickable="false"
+        android:password="false"
+        android:phoneNumber="false"
+        android:layout_weight="1" />
+    </LinearLayout>

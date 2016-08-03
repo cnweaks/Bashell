@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="keybord_ESC">
+        <item>027</item>
+        <item>@string/keybord_ESC</item>
+        <item>ESC</item>
+    </string-array>
+    <string-array name="keybord_ALT">
+        <item>18</item>
+        <item>@string/keybord_ALT</item>
+        <item>ALT</item>
+    </string-array>
+    <string-array name="keybord_PageUp">
+        <item>33</item>
+        <item>@string/keybord_PageUp</item>
+        <item>PageUp</item>
+    </string-array>
+    <string-array name="keybord_Clear">
+        <item>12</item>
+        <item>@string/keybord_Clear</item>
+        <item>Clear</item>
+    </string-array>
+    <string-array name="keybord_SHIFT">
+        <item>16</item>
+        <item>@string/keybord_SHIFT</item>
+        <item>SHIFT</item>
+    </string-array>
+    <string-array name="keybord_TAB">
+        <item>9</item>
+        <item>@string/keybord_TAB</item>
+        <item>TAB</item>
+    </string-array>
+    <string-array name="keybord_PGUP">
+        <item>33</item>
+        <item>@string/keybord_PGUP</item>
+        <item>PGUP</item>
+    </string-array>
+    <string-array name="keybord_fangkuohaoA">
+        <item>219</item>
+        <item>@string/keybord_fangkuohaoA</item>
+        <item>fangkuohaoA</item>
+    </string-array>
+    <string-array name="keybord_END">
+        <item>35</item>
+        <item>@string/keybord_END</item>
+        <item>keyboardPress</item>
+    </string-array>
+    <string-array name="keybord_HOME">
+        <item>36</item>
+        <item>@string/keybord_HOME</item>
+        <item>HOME</item>
+    </string-array>
+    <string-array name="keybord_DELETE">
+        <item>46</item>
+        <item>@string/keybord_DELETE</item>
+        <item>DELETE</item>
+    </string-array>
+    <string-array name="keybord_fangkuohaoB">
+        <item>221</item>
+        <item>@string/keybord_fangkuohaoB</item>
+        <item>方括号</item>
+    </string-array>
+    <string-array name="keybord_Fengefu">
+        <item>220</item>
+        <item>@string/keybord_Fengefu</item>
+        <item>分隔符</item>
+    </string-array>
+    <string-array name="keybord_PageDown">
+        <item>34</item>
+        <item>@string/keybord_PageDown</item>
+        <item>PageDown</item>
+    </string-array>
+    <string-array name="keybord_Insert">
+        <item>45</item>
+        <item>@string/keybord_Insert</item>
+        <item>Insert</item>
+    </string-array>
+    <string-array name="keybord_CTRL">
+        <item>17</item>
+        <item>@string/keybord_CTRL</item>
+        <item>CTRL</item>
+    </string-array>
+</resources>

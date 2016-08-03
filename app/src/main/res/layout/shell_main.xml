@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".CnweakActivity"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:id="@+id/linearLayout"
+		android:background="#141212"
+		android:layout_weight="1.0">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:id="@+id/cmd_outram"
+			android:layout_width="match_parent"
+			android:longClickable="false"
+			android:linksClickable="false"
+			android:password="false"
+			android:phoneNumber="false"
+			android:background="#000000"
+			android:textColor="#FFFFFF"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#006468"
+		android:layout_weight="10.0">
+
+		<EditText
+			android:id="@+id/shellbash"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:inputType="textAutoComplete"
+			android:layout_gravity="left"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:text="Run"
+            android:id="@+id/shell_mainButton"
+			android:layout_width="match_parent"
+			android:layout_weight="4.0"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

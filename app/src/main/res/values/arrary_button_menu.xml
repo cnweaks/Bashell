@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sprsmyol">
+        <item>@string/name_symol</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+    </string-array>
+    <string-array name="sprtool">
+        <item>@string/name_tool</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+    </string-array>
+    <string-array name="sprmethrd">
+        <item>@string/name_methord</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+    </string-array>
+    <string-array name="sprsdata">
+        <item>@string/name_data</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+    </string-array>
+    <string-array name="sprbug">
+        <item>@string/name_bug</item>
+        <item>string测试</item>
+        <item>string运行</item>
+        <item>string反馈</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+        <item>string输出</item>
+    </string-array>
+</resources>

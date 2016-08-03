@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="基本设置" android:key="set_local">
+		<CheckBoxPreference 
+			android:key="host_addboot" 
+			android:title="开机启动" 
+			android:summary="开机时自动启动应用程序"
+		>
+		</CheckBoxPreference>
+		<CheckBoxPreference 
+			android:key="bash_脚本自启" 
+			android:title="脚本自启" 
+			android:summary="脚本开机后自动启动">
+		</CheckBoxPreference>
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="传输设置">
+		<CheckBoxPreference 
+			android:key="aliyun_ossid" 
+			android:title="阿里云OSS ID" 
+			android:summary="您申请的阿里云存储OSS的ID编号">
+		</CheckBoxPreference>
+		<CheckBoxPreference 
+			android:key="aliyun_osskey"
+			android:title="阿里云OSS KEY"  
+			android:summary="您申请的阿里云存储OSS的密钥">
+		</CheckBoxPreference>
+		<CheckBoxPreference 
+			android:key="aliyun_Default"
+			android:title="购买私有存储"  
+			android:summary="使用我们提供给您的加密高速存储">
+		</CheckBoxPreference>
+		<Preference 
+			android:key="wifi_setting"
+			android:title="Wi-Fi设置"  
+			android:summary="设置和管理无线接入点" 
+			android:dependency="apply_wifi">
+		</Preference>
+		<CheckBoxPreference
+			android:key="apply_bluetooth" 
+			android:title="蓝牙"  
+			android:summary="启用蓝牙">
+		</CheckBoxPreference>
+		<Preference 
+			android:key="bluetooth_setting" 
+			android:title="蓝牙设置" 
+			android:summary="管理连接、设备设备名称和可检测性" 
+			android:dependency="apply_bluetooth">
+		</Preference>
+		<EditTextPreference 
+			android:key="number_edit" 
+			android:title="输入电话号码">
+		</EditTextPreference>
+		<ListPreference 
+			android:key="depart_value" 
+			android:title="部门设置" 
+			android:dialogTitle="选择部门" 
+			android:entries="@array/department" 
+			android:entryValues="@array/department_value">
+		</ListPreference>
+		<RingtonePreference
+			android:key="ring_key"
+			android:title="铃声"
+			android:ringtoneType="all"
+			android:showDefault="true"
+			android:showSilent="true">
+		</RingtonePreference>
+	</PreferenceCategory>
+
+</PreferenceScreen>

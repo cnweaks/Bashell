@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/aliyun_upfile"
+        android:showAsAction="always"
+        android:title="上传"/>
+    <item
+        android:id="@+id/aliyun_downfile"
+        android:showAsAction="always"
+        android:title="下载"/>
+    <item
+        android:id="@+id/aliyun_manager"
+        android:showAsAction="always"
+        android:title="管理"/>
+    <item
+        android:id="@+id/aliyun_bucketmanager"
+		
+        android:title="Bucket"/>
+	<item
+        android:id="@+id/aliyun_uprestart"
+        
+        android:title="续传"/>
+	<item
+        android:id="@+id/aliyun_urlsign"
+        android:title="签名"/>
+	<item
+        android:id="@+id/aliyun_viewlist"
+        android:title="查看"/>
+	<item
+        android:id="@+id/aliyun_setting"
+        android:title="设置"/>
+	<item
+        android:id="@+id/aliyun_about"
+		android:title="关于"
+	/>
+</menu>

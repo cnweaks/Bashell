@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+    <item
+        android:id="@+id/action_file"
+        android:showAsAction="always"
+        android:title="本地"/>
+    <item
+        android:id="@+id/action_cmd"
+        android:showAsAction="always"
+        android:title="终端"/>
+    <item
+        android:id="@+id/action_oss"
+        android:showAsAction="always"
+        android:title="存储"/>
+    <item
+        android:id="@+id/action_host"
+		android:showAsAction="always"
+        android:title="主机"/>
+	<item
+        android:id="@+id/action_add"
+        android:title="新建"/>
+	<item
+        android:id="@+id/action_Xml"
+        android:title="XML"/>
+	<item
+        android:id="@+id/action_html"
+        android:title="HTML"/>
+	<item
+        android:id="@+id/action_settings"
+        android:title="设置"/>
+	<item
+        android:id="@+id/action_about"
+		android:title="关于"
+		/>
+	<item
+        android:id="@+id/action_exit"
+        android:title="退出"/>
+</menu>

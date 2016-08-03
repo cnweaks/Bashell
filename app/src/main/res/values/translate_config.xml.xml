@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="api_id">translatebingcnweak</string>
+    <string name="api_key">Iz04pI1gsyeFgg/KI2oZTcIvCUIhoPTL9vy3T1BKgqg=</string>
+    <string name="api_file_path">/path/to/project/base</string>
+    <string name="api_end_line">\r\n</string>
+    <string name="api_file_name">strings.xml</string>
+    <string name="api_work_dir">/</string>
+    <string name="ai_value_path">/res/values</string>
+</resources>

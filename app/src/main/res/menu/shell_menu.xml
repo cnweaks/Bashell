@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    case:R.id.:
+                 break;
+                case:R.id.:
+                break;
+                case:R.id.:
+                break;
+    <item
+        android:id="@+id/shell_surun"
+        android:showAsAction="always"
+        android:title="Su执行"/>
+    <item
+        android:id="@+id/shell_check"
+        android:showAsAction="always"
+        android:title="验证"/>
+    <item
+        android:id="@+id/shell_purun"
+		android:showAsAction="always"
+        android:title="执行"/>
+    <item
+        android:id="@+id/shell_apidoc"
+        android:showAsAction="always"
+        android:title="文档"/>
+	<item
+        android:id="@+id/action_settings"
+        android:title="设置"/>
+</menu>

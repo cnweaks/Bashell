@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:context=".CnweakActivity"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+		<FrameLayout
+			android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/NoteEditFrament"
+			android:layout_above="@+id/input_layoutlin">
+            <EditText
+                android:id="@+id/NoteEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+				android:text="bianjikuang "
+				android:gravity="top"/>
+
+		</FrameLayout>
+
+	<LinearLayout
+		android:id="@+id/input_layoutlin"
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		>
+
+
+	</LinearLayout>
+
+
+</RelativeLayout>
+

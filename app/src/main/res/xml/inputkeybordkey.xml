@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preference  
+	xmlns:android="http://schemas.android.com/apk/res/android">  
+    <PreferenceCategory title="keyconfig">
+		<Preference 
+        android:key="key_ctrl"  
+		android:title="ctrl"
+		android:defaultValue="true"
+		>
+		</Preference>
+    </PreferenceCategory>  
+</Preference>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".FileManageActivity">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_weight="1">
+
+		<ListView
+			android:id="@android:id/list"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:drawSelectorOnTop="false"
+			android:scrollbars="vertical"
+			android:layout_weight="1">
+
+		</ListView>
+
+		<ListView
+			android:id="@+id/file_manage_aliyunlist"
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:layout_weight="1"/>
+
+		<TextView
+			android:id="@+id/file_manage_aliyunview"
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:layout_weight="1"
+			android:visibility="visible"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:visibility="visible"
+		android:layout_weight="11"
+		android:background="#071622">
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:text="全选"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:padding="3dp"
+			android:textSize="13dp"
+			android:textColor="@android:color/white"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:text="工具"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:textColor="@android:color/white"
+			android:textSize="13dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:text="搜索"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:textColor="@android:color/white"
+			android:textSize="13dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:text="替换"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:textColor="@android:color/white"
+			android:textSize="13dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:text="同步"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:textColor="@android:color/white"
+			android:textSize="13dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:text="定时"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:textColor="@android:color/white"
+			android:textSize="13dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

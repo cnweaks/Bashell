@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2011-2013 Pieter Pareit
+
+This file is part of SwiFTP.
+
+SwiFTP is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+SwiFTP is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with SwiFTP.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<PreferenceScreen android:key="preference_screen" xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="running_state"
+        android:summary="@string/ftpbrowser_running_summary_stopped"
+        android:title="@string/ftpbrowser_running_label" />
+    <EditTextPreference
+            android:defaultValue="@string/ftpbrowser_ipaddress_default"
+            android:key="ipaddress"
+            android:summary="@string/ftpbrowser_ipaddress_default"
+            android:title="@string/ftpbrowser_ipaddress_label" />
+    
+    <PreferenceCategory
+        android:key="settings"
+        android:title="@string/ftpbrowser_settings_label" >
+        <EditTextPreference
+            android:defaultValue="@string/ftpbrowser_username_default"
+            android:key="username"
+            android:title="@string/ftpbrowser_username_label" />
+        <EditTextPreference
+            android:defaultValue="@string/ftpbrowser_password_default"
+            android:key="password"
+            android:title="@string/ftpbrowser_password_label"
+            android:inputType="textPassword" />
+        <CheckBoxPreference
+            android:key="show_password"
+            android:title="@string/ftpbrowser_show_password_label"
+            android:defaultValue="@string/ftpbrowser_show_password_default" />
+        
+        <PreferenceScreen
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:title="@string/ftpbrowser_moresettings_label" >
+            <EditTextPreference
+                android:defaultValue="@string/ftpbrowser_portnumber_default"
+                android:key="portNum"
+                android:title="@string/ftpbrowser_portnumber_label" />
+            <EditTextPreference
+                android:defaultValue="@string/ftpbrowser_chroot_default"
+                android:key="chrootDir"
+                android:title="@string/ftpbrowser_chroot_label" />
+
+            <CheckBoxPreference
+                android:defaultValue="@string/ftpbrowser_wakelock_default"
+                android:key="stayAwake"
+                android:title="@string/ftpbrowser_wakelock_label" />
+        </PreferenceScreen>
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="extra_category"
+        android:title="@string/ftpbrowser_extra_label" >
+        <Preference
+            android:key="help"
+            android:title="@string/ftpbrowser_help_label" />
+        <Preference
+            android:key="about"
+            android:title="@string/ftpbrowser_about_label" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

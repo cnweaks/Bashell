@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/readobject"
+        android:showAsAction="always"
+    android:id="@+id/menu_item_translate"/>
+	
+	<item
+        android:title="@string/readuser"
+        android:showAsAction="always"
+		android:id="@+id/menu_item_point"/>
+    <item
+        android:title="@string/getcodejava"
+        android:showAsAction="always"
+        android:id="@+id/menu_item_java"/>
+</menu>

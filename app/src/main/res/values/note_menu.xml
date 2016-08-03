@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?> 
+	<resources>   
+		<string-array name="smyol">   
+			<item>c++</item>     
+			<item>java </item>     
+			<item>php</item>    
+			<item>xml</item>   
+			<item>html</item>  
+		</string-array>
+		<string-array name="methrd">   
+			<item>c++</item>     
+			<item>java </item>     
+			<item>php</item>    
+			<item>xml</item>   
+			<item>html</item>  
+		</string-array>
+		<string-array name="tools">   
+			<item>c++</item>     
+			<item>java </item>     
+			<item>php</item>    
+			<item>xml</item>   
+			<item>html</item>  
+		</string-array>
+		<string-array name="testbug">   
+			<item>c++</item>     
+			<item>java </item>     
+			<item>php</item>    
+			<item>xml</item>   
+			<item>html</item>  
+		</string-array>
+		<string-array name="databash">   
+			<item>c++</item>     
+			<item>java </item>     
+			<item>php</item>    
+			<item>xml</item>   
+			<item>html</item>  
+		</string-array>
+		<string-array name="collect">   
+			<item>c++</item>     
+			<item>java </item>     
+			<item>php</item>    
+			<item>xml</item>   
+			<item>html</item>  
+		</string-array>
+	</resources>
+	

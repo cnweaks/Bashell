@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">cnweak</string>
+    <string name="goback">Go</string>
+    <string name="pick_file">选择文件</string>
+    <string name="pick_folder">选择目录</string>
+    <string name="name_symol">符号</string>
+    <string name="name_tool">工具</string>
+    <string name="name_methord">函数</string>
+    <string name="name_data">资料</string>
+    <string name="name_bug">调试</string>
+    <string name="rebootbash">开机自启</string>
+    <string name="bashell">Bash脚本</string>
+
+    <string name="switchone">方法</string>
+    <string name="switchtwo">输入</string>
+    <string name="dir_info">Folder Information</string>
+
+    <string name="media_dialog">Phone Management</string>
+    <string name="manager_act">Phone Management</string>
+    <!--特殊按键-->
+    <string name="keybord_ESC">ESC</string>
+    <string name="keybord_ALT">Alt</string>
+    <string name="keybord_CTRL">Ctrl</string>
+    <string name="keybord_FN">Fn</string>
+    <string name="keybord_SHIFT">Shift</string>
+    <string name="keybord_TAB">Tab</string>
+    <string name="keybord_PGUP">up</string>
+    <string name="keybord_PGDW">down</string>
+    <string name="keybord_END">end</string>
+    <string name="keybord_HOME">home</string>
+    <string name="keybord_DELETE">Delete</string>
+    <!--特殊字符-->
+
+    <string name="keybord_PageUp">PageUp</string>
+    <string name="keybord_Insert">Insert</string>
+    <string name="keybord_PageDown">PageDown</string>
+    <string name="keybord_Fengefu">Fengefu</string>
+    <string name="keybord_fangkuohaoB">\&#037;</string>
+    <string name="keybord_fangkuohaoA">\&#040;</string>
+    <string name="keybord_Clear">Clear</string>
+    <string name="keybord_key042">\&#042;</string>
+    <string name="keybord_key043">\&#043;</string>
+    <string name="keybord_key045">\&#045;</string>
+    <string name="keybord_key047">\&#047;</string>
+    <string name="keybord_key058">\&#058;</string>
+    <string name="keybord_key059">\&#059;</string>
+    <string name="keybord_key060">\&#060;</string>
+    <string name="keybord_key061">\&#061;</string>
+    <string name="keybord_key062">\&#062;</string>
+    <string name="keybord_key064">\&#064;</string>
+    <string name="keybord_key091">\&#091;</string>
+    <string name="keybord_key093">\&#093;</string>
+    <string name="keybord_key095">\&#095;</string>
+    <string name="keybord_key123">\&#123;</string>
+    <string name="keybord_key124">\&#124;</string>
+    <string name="keybord_key125">\&#125;</string>
+
+    <string name="bar_content_type">separator</string>
+    <string name="button_go">Go</string>
+    <string name="button_switch">&lt;&gt;</string>
+    <string name="input_hint">Enter text in</string>
+    <string name="menu_settings">Settings</string>
+    <string name="progress_indicator">Translating&#8230;</string>
+    <string name="service1">Apertium (Offline)</string>
+    <string name="service2">Apertium (Online)</string>
+    <string name="service3">Bing Translator</string>
+    <string name="readobject">翻译</string>
+    <string name="refresh">刷新</string>
+    <string name="action_settings">Settings</string>
+    <string name="ex_user">举例</string>
+    <string name="translated">翻译</string>
+    <string name="users">用法</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="btn">操作</string>
+    <string name="more">更多</string>
+    <string name="sure">确定</string>
+    <string name="back">返回</string>
+    <string name="rename">重命名文件</string>
+    <string name="move">移动文件</string>
+    <string name="background_color">背景颜色</string>
+    <string name="input_path">请输入目标目录的路径</string>
+    <string name="input_new_name">请输入文件新名</string>
+    <string name="delete">删除文件</string>
+    <string name="sure_delete">确定删除文件？</string>
+    <string name="please">请点击选项</string>
+    <string name="creat">新建文件夹</string>
+    <string name="find">查找文件</string>
+    <string name="intput_find">请输入查找文件名称</string>
+    <string name="input_dir_name">请输入文件夹名字</string>
+    <string name="thanks">谢谢观看，亲</string>
+    <string name="detil">文件详情</string>
+    <string name="information">软件信息</string>
+    <string name="app_information">第二个练手APP。\n2015.09.11起。\n2015.09.18终。\n纯属娱乐。\n不喜勿喷。</string>
+    <string name="hello">Hello World, FtpBrowserActivity!</string>
+    
+    <string name="ftpbrowser_running_label">Running</string>
+    <string name="ftpbrowser_running_summary_stopped">Start File Browser</string>
+    <string name="ftpbrowser_running_summary_started">File Browser at %s</string>
+    <string name="ftpbrowser_running_summary_failed">Failed to start the File Browser, not connected to the local network (wifi or ethernet)?</string>
+    
+    <string name="ftpbrowser_ipaddress_label">Connect IP </string>
+    <string name="ftpbrowser_ipaddress_default">192.168.1.100</string>
+        
+    <string name="ftpbrowser_settings_label">Settings</string>
+    <string name="ftpbrowser_username_label">Username</string>
+    <string name="ftpbrowser_username_default">123</string>
+    <string name="ftpbrowser_password_label">Password</string>
+    <string name="ftpbrowser_password_default">111</string>
+    <string name="ftpbrowser_show_password_label"> Display password</string>
+    <string name="ftpbrowser_show_password_default">false</string>
+    <string name="ftpbrowser_moresettings_label">More Settings...</string>
+    <string name="ftpbrowser_portnumber_label">Port Number</string>
+    <string name="ftpbrowser_portnumber_default">21</string>
+    <string name="ftpbrowser_chroot_label">Download in folder</string>
+    <string name="ftpbrowser_chroot_default">/mnt/sdcard/temp</string>
+    <string name="ftpbrowser_acceptwifi_label">Accept connection from wifi</string>
+    <string name="ftpbrowser_acceptwifi_default">true</string>
+    <string name="ftpbrowser_acceptproxy_label">Accept connection from net proxy</string>
+    <string name="ftpbrowser_acceptproxy_default">false</string>
+    <string name="ftpbrowser_wakelock_label">Keep device awake (full CPU speed)</string>
+    <string name="ftpbrowser_wakelock_default">true</string>
+    <string name="ftpbrowser_extra_label">Extra</string>
+    <string name="ftpbrowser_help_label">Help...</string>
+    <string name="ftpbrowser_about_label">About...</string>
+   
+    <!-- old strings -->
+    <string name="cant_get_url">Can\'t retreive url</string>
+    <string name="unknown">unknown</string>
+    <string name="ok">OK</string>
+    <string name="ftpbrowser_username_validation_error">The username must consist of 1 or more letters. No other characters are allowed.</string>
+    <string name="ftpbrowser_password_validation_error">The password must consist of 1 or more alphanumeric characters. No other characters are allowed.</string>
+    <string name="ftpbrowser_port_validation_error">The port number must be in the range 1 to 65535.</string>
+    <string name="ftpbrowser_ip_validation_error">ip address error</string>
+    <string name="ftpbrowser_wifi_state_receiver_label">WifiStateReceiver</string>
+    <string name="ftpbrowser_notif_server_starting">File Browser starting...</string>
+    <string name="ftpbrowser_notif_title">File Browser is running</string>
+    <string name="ftpbrowser_notif_text">File Browser running at %s</string>
+    <string name="ftpbrowser_pst_connecting">connecting</string>
+    <string name="ftpbrowser_pst_connected">connected</string>
+    <string name="ftpbrowser_pst_failed">failed</string>
+    <string name="ftpbrowser_pst_unreachable">unreachable</string>
+    <string name="ftpbrowser_pst_disconnected">disconnected</string>
+    <string name="ftpbrowser_storage_warning">Warning: storage is not available. You may want to unmount it.</string>
+    <string name="savechange">保存</string>
+
+    <string name="login_new">新建配置</string>
+    <string name="login_edit">编辑配置</string>
+    <string name="login_delete">删除配置</string>
+    <string name="login_connect">连接</string>
+    <string name="login_disconnect">断开</string>
+    <string name="login_profile">配置</string>
+
+
+
+    <string name="profile_name">名称</string>
+    <string name="profile_host">主机</string>
+    <string name="profile_port">端口</string>
+    <string name="profile_user">用户名</string>
+    <string name="profile_pwd">密  码</string>
+    <string name="profile_user_hint">匿名Anonymous登陆</string>
+
+
+    <string name="explorer_back">返回</string>
+    <string name="explorer_local">本地路径</string>
+    <string name="explorer_remote">远程路径</string>
+    <string name="explorer_tasklist">任务清单</string>
+    <string name="explorer_disconnect">断开</string>
+    <string name="explorer_refresh">刷新</string>
+    <string name="explorer_download">下载</string>
+    <string name="explorer_upload">上传</string>
+    <string name="explorer_new">新建目录</string>
+
+    <string name="tasklist_back">返回</string>
+    <string name="tasklist_delete">删除</string>
+    <string name="tasklist_status_transfer">迁移中....</string>
+    <string name="tasklist_status_wait">请稍后...</string>
+    <string name="tasklist_setting">设置</string>
+
+
+    <string name="ctx_menu_delete">删除</string>
+    <string name="ctx_menu_upload">上传</string>
+    <string name="ctx_menu_download">下载</string>
+    <string name="ctx_menu_open">打开</string>
+    <string name="ctx_menu_rename">重命名</string>
+
+    <string name="delete_confirm_title">确定删除？</string>
+    <string name="mkdir_title">请输入目录名</string>
+    <string name="rename_title">请输入新目录名</string>
+    <string name="thread_number_tile">设置线程数</string>
+    <string name="profile_title">配置</string>
+
+    <string name="Tab_alioss">OSS</string>
+    <string name="Tab_Login">登陆</string>
+    <string name="Tab_Remote">FTP</string>
+    <string name="Tab_Local">本地</string>
+    <string name="Tab_TaskList">任务</string>
+    <string name="edit_item">编辑</string>
+    <string name="item_tran">翻译</string>
+    <string name="item_repart">撤销</string>
+
+
+
+
+    <string name="readuser">刷新</string>
+    <string name="getcodejava">java</string>
+
+
+</resources>

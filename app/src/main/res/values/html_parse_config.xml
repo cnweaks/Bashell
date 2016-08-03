@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--smail-->
+    <string name="smail_host">http://data.cnweak.com</string>
+    <string name="smail_end_path">Bashell</string>
+    <string name="smail_file_name">android_smail.html</string>
+
+
+
+    <!--共同部分-->
+    <string name="xg">/</string>
+    <string name="smail">smail</string>
+    <string name="codejava">codejava</string>
+    <string name="javatext">javatext</string>
+
+    <!--
+    codeforge
+    http://www.codeforge.cn/article/212763   列表
+    www.codeforge.cn/read/234563/DeleteWord.java__html   内容
+    -->
+    <string name="forge_host">http://www.codeforge.cn</string>
+    <string name="forge_first_path">read</string>
+    <string name="forge_next_pathx">article</string>
+    <string name="forge_end_path">259130</string>
+    <string name="forge_file_name"></string>
+
+
+
+
+    <!--
+        存储路径
+        -->
+    <string name="sdcard_TF">/storage/sdcard1</string>
+    <string name="sdcard_SD">/storage/emulated/0</string>
+    <string name="sdcard_work_path">htmlparse</string>
+
+    <!--   &amp;
+            替换的字符串
+            -->
+    <string name="reple_yhA">quot;</string>
+    <string name="reple_yhB">DDDD</string>
+
+    <string name="reple_wbbA">amp;</string>
+    <string name="reple_wbbB">AAAA</string>
+
+    <string name="reple_zjA">lt;</string>
+    <string name="reple_zjB">BBBB</string>
+
+    <string name="reple_yjA">gt;</string>
+    <string name="reple_yjB">CCCC</string>
+
+</resources>

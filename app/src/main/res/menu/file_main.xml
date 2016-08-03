@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/file_search"
+        android:showAsAction="always"
+        android:title="查找"/>
+    <item
+        android:id="@+id/file_sycfile"
+		android:showAsAction="always"
+        android:title="同步"/>
+	<item
+        android:id="@+id/file_love"
+		android:showAsAction="always"
+        android:title="收藏"/>
+	<item
+        android:id="@+id/file_dsc"
+		android:showAsAction="always"
+        android:title="排序"/>
+	<item
+        android:id="@+id/file_up"
+        android:title="上传"/>
+    <item
+        android:id="@+id/file_down"
+        android:title="下载"/>
+	
+	<item
+        android:id="@+id/file_findview"
+        android:title="对比"/>
+	<item
+        android:id="@+id/file_settings"
+        android:title="设置"/>
+	<item
+        android:id="@+id/file_about"
+		android:title="关于"
+	/>
+</menu>
